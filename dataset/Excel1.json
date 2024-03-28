@@ -1,0 +1,35 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "STATUS",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "API_STATUS.xlsx",
+				"folderPath": "input",
+				"container": "navycontainer"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "TableName",
+				"type": "String"
+			},
+			{
+				"name": "Uploaded Data",
+				"type": "String"
+			},
+			{
+				"name": "Sample_Status",
+				"type": "String"
+			}
+		]
+	}
+}
