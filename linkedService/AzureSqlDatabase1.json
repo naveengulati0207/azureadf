@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=navyserver.database.windows.net;initial catalog=navydb;user id=navyadmin",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0ZTViMTk2ZC0yMjZjLTRkYmYtYjY0Ni00OTA1MjE2MjlhMTIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=navyserver.database.windows.net;initial catalog=azsqldb;user id=navyadmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlZDA0YzYyMS05YmE5LTQyZGEtODIzZC03YjFjOTVhNWM1ZjQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SqlSelfHostedIR",
