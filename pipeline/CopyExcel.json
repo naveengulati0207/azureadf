@@ -58,6 +58,11 @@
 				]
 			}
 		],
+		"parameters": {
+			"Execution_date": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
