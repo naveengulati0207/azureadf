@@ -8,8 +8,14 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
+		},
+		"trigger1_properties_CopyExcel_parameters_Execution_date": {
+			"value": "@trigger().scheduledTime"
 		},
 		"containerUri": {
 			"value": ""
