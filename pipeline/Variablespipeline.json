@@ -1,0 +1,41 @@
+{
+	"name": "Variablespipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Append list of files",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [
+					{
+						"name": "appendingfiles",
+						"value": "here we will be appending files"
+					}
+				],
+				"typeProperties": {
+					"variableName": "Filetype",
+					"value": {
+						"value": "@pipeline().parameters.FileName",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"FileName": {
+				"type": "string",
+				"defaultValue": "SalesUs.txt"
+			}
+		},
+		"variables": {
+			"Filetype": {
+				"type": "Array",
+				"defaultValue": [
+					"SalesIndia",
+					"SalesUK"
+				]
+			}
+		},
+		"annotations": []
+	}
+}
