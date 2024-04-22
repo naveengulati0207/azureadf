@@ -1,0 +1,27 @@
+{
+	"name": "waitpipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [
+					{
+						"name": "wait",
+						"value": "we wait for 10 sec"
+					}
+				],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"variables": {
+			"FileAvail": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
